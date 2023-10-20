@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.rato-especialista1,
+.rato-especialista2 {
+    display: flex;
+    background: #6868f0;
+    min-height: 46vh;
+    
+}
+
+
+.rato-senior1,
+.rato-senior3 {
+    flex: 1;
+    margin: 30px 100px 30px 200px;
+    border: 1px solid #ccc;
+    background: crimson;
+    
+}
+
+.rato-senior2,
+.rato-senior4 {
+    flex: 1;
+    margin: 30px 200px 30px 100px;
+    border: 1px solid #ccc;
+    background: crimson;
+}
+
+p {
+    text-align: center;
+    font: normal 15pt arial;
+    padding: 10px;
+}
